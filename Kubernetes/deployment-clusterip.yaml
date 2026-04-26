@@ -56,7 +56,7 @@ spec:
               mysql -h $DB_HOST -u root -p$MYSQL_ROOT_PASSWORD -e "FLUSH PRIVILEGES;"
       containers:
         - name: nodejs-app
-          image: looogyyyy/nodejs-app:latest
+          image: rawdaessamrou/nodejs-app:latest
           ports:
             - containerPort: 3000
           resources:
